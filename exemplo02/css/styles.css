@@ -25,6 +25,8 @@
   text-align: center;
   padding-top: 20px;
   box-sizing: border-box;
+  border: 10px solid white;
+  outline: 10px solid greenyellow;
 }
 
 #rect2 span {
