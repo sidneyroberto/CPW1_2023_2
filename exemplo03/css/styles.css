@@ -20,7 +20,7 @@ body {
 }
 
 #menu {
-  width: 30%;
+  width: 15%;
   background-color: #DBD2E0;
   padding: 30px 20px;
 }
@@ -43,4 +43,46 @@ body {
 
 #menu li:hover {
   color: #555;
+}
+
+#content {
+  padding: 30px 20px;
+  width: 85%;
+}
+
+#content-title {
+  font-family: 'bold';
+  text-align: center;
+}
+
+.content-card {
+  border-radius: 50px;
+  background: #f7f7f7;
+  box-shadow: 20px 20px 60px #d2d2d2,
+    -20px -20px 60px #ffffff;
+  display: flex;
+  width: 70%;
+  margin: 50px auto;
+  padding: 40px;
+}
+
+.content-card span {
+  font-family: 'regular';
+  width: 50%;
+  padding: 0 10px;
+  font-size: 115%;
+}
+
+.content-card img {
+  width: 50%;
+}
+
+#footer {
+  background-color: #24252a;
+  padding: 50px 20px;
+}
+
+#footer span {
+  color: white;
+  font-family: 'bold';
 }
