@@ -72,16 +72,22 @@ header {
 #slogan span {
   font-family: 'regular';
   font-size: 62px;
+  opacity: 0;
   font-weight: bold;
   letter-spacing: -5px;
-  animation: fade-in 3s infinite;
-  animation-delay: calc(100ms * var(--i));
+  animation: smoking-fade-in 500ms;
+  animation-delay: calc(50ms * var(--i));
+  animation-fill-mode: forwards;
 }
 
 #hero-text p {
   text-align: center;
   font-family: 'italic';
   font-size: 48px;
+  opacity: 0;
+  animation: smoking-fade-in 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .marketing-black, .marketing-white {
@@ -89,6 +95,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.marketing-black:hover .product,
+.marketing-white:hover .product {
+  animation: smoking-fade-in 2s;
+  animation-fill-mode: forwards;
 }
 
 .marketing-black {
@@ -111,6 +123,8 @@ header {
 
 .product {
   width: 30%;
+  opacity: 0;
+  animation: smoking-fade-out 2s;
 }
 
 .know-more {

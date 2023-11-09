@@ -37,15 +37,27 @@
   }
 }
 
-@keyframes fade-in {
-  from {
+@keyframes smoking-fade-in {
+  0% {
     opacity: 0;
-    filter: blur(20px);
+    filter: blur(50px);
   }
 
-  to {
+  100% {
     opacity: 1;
     filter: blur(0);
+  }
+}
+
+@keyframes smoking-fade-out {
+  0% {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+  100% {
+    opacity: 0;
+    filter: blur(50px);
   }
 }
 
