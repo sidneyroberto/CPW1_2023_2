@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #5a228b;
+}
+
+#container {
+  padding: 20px;
+}
+
+table {
+  width: 60%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-collapse: collapse;
+  box-shadow: 10px 10px 5px #d5b8ff;
+}
+
+caption {
+  font-family: "bold";
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #000;
+}
